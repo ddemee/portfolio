@@ -1,0 +1,50 @@
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*--------------------------- Header---------------------------------- */
+#header {
+    background-color: #E8F0F2;
+    padding: 0 50px 150px;
+    background-image: linear-gradient(180deg, #E8F0F2, rgba(165, 165, 165, 0.726));
+}
+.navigation {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px rgb(190, 190, 190) solid;
+}
+.logo a {
+    font-size: 35px;
+ 
+}
+.navigation ul {
+    display: flex;
+    align-self: center;
+   justify-content:space-between ;
+
+}
+.navigation ul li {
+    margin: 0 15px 0 ;
+}
+/* ---------------------- Hero ---------------------------------- */
+.hero {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    margin-top: -100px;
+    padding-top: 200px;
+    border-radius: 5px;
+}
+.hero h1 {
+    color: #ff002f;
+    font-size: 100px ;
+    text-align: center;
+    
+
+}
