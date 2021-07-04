@@ -22,11 +22,26 @@
     <div class="container">
         <nav>
             <a class="logo" href="index.html">DD.</a>
-            <ul>
+            <ul class="nav-links">
                 <li><a class="active" href="">მთავარი</a></li>
                 <li><a href="">პროექტები</a></li>
                 <li><a href="">კონტაქტი</a></li>
             </ul>
+            <button class="btn btn-primary burgerbar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fas fa-bars"></i></button>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasRightLabel"></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li><a class="active" href="">მთავარი</a></li>
+                    <li><a href="">პროექტები</a></li>
+                    <li><a href="">კონტაქტი</a></li>
+                </ul>
+            </div>
+            </div>
         </nav>
     </div>
 </header>

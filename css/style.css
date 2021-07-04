@@ -43,13 +43,31 @@ header p {
     color: #0ABEAD;
 }
 /* HEADER */
-nav,ul {
+nav,.nav-links {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav ul {
+.nav-links {
     width: 20%;
+}
+.nav-links {
+    display: none;
+}
+.burgerbar {
+    background-color:#0ABEAD ;
+    border: none;
+}
+.offcanvas-body ul {
+    flex-direction: column;
+    text-align: center;
+}
+.offcanvas-body li {
+    margin-top: 1.5rem;
+}
+.offcanvas-body a {
+    font-size: 1.5rem;
+    color: #758ab4;
 }
 /*  main  */
 .main {
