@@ -10,7 +10,13 @@
     .split {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content:space-between;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
     }
  }
 @media (min-width: 768px) {

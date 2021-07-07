@@ -24,6 +24,13 @@ span {
 img {
     width: 100%;
 }
+p {
+    color: #95A5C6;
+}
+i{
+    color: #95A5C6;
+    font-size: 1.5rem;
+}
 /* Header */
 header {
     background-color: #1F2935;
@@ -76,12 +83,21 @@ nav,.nav-links {
 .main div {
     margin:2rem 0;
 }
+.hire-me {
+    background-color: #09BEAD;
+    border: none;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    
+    box-shadow:0 10px 30px #09BEAD, 2px 2px 2px rgba(206,89,55,0);
+}
 /* ABOUT ME */
 .aboutme {
     padding: 100px 0;
 }
 /* PROCJECT */
-.project {
+.project ,.contactus{
     padding: 5rem 0;
 }
 .project h2 {
@@ -100,4 +116,55 @@ nav,.nav-links {
 .project a:hover img {
     -webkit-box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0); 
 box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+/* Contact  */
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+    background-color: #0d1116;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem
+}
+.social div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social .fb,.insta,.in{
+    background-color: #bcc1c7;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    padding: 6px 12px;
+    transition: all ease 0.25s ;
+    width: 45px;
+}
+.social .fb:hover {
+    background-color: #3b5998;
+    color: white;
+}
+.social .insta:hover {
+    background: #8A3AB9;
+    background: -moz-linear-gradient(top, #8A3AB9 0%, #BC2A8D 100%);
+    background: -webkit-linear-gradient(top, #8A3AB9 0%, #BC2A8D 100%);
+    background: linear-gradient(to bottom, #8A3AB9 0%, #BC2A8D 100%);
+    color: white;
+}   
+.social .in:hover {
+    background-color: #0e76a8;
+    color: white;
+}
+
+.social i {
+    font-size: 2rem;
+    color: white;
+
 }
